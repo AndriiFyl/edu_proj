@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+
+
+
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #F5F5F5;
+}
+
+
+
+.current_page {
+    color: rgb(51, 0, 255);
+    font-weight: 700;
+    padding-top: 35px;
+
+    @include mq(tablet) {
+        border-top: 5px solid rgb(51, 0, 255); 
+    }
+   
+}

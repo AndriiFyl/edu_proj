@@ -1,0 +1,12 @@
+// utils 
+@import './utils/mixins';
+
+
+// base styles  
+@import './base/container';
+@import './base/common';
+@import './base/reset';
+
+// index
+@import './pages/index';
+@import './pages/courses';

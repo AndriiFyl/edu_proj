@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Education||Courses</title>
+    <link rel="stylesheet" href="./css/main.min.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header_container container">
+        <a href="./index.html"
+          ><span class="header_logo_first-part">Ed</span
+          ><span class="header_logo_second-part">World</span></a
+        >
+
+        <button class="header_burger-button">
+          <svg
+            class="header_burger-icon"
+            width="40px"
+            height="40px"
+            fill="blue"
+          >
+            <use href="./images/sprite.svg#icon-burger-menu"></use>
+          </svg>
+        </button>
+        <ul class="header_navigation_list">
+          <li class="header_close-item">
+            <svg
+              class="header_close-menu_icon"
+              width="40px"
+              height="40px"
+              fill="blue"
+            >
+              <use href="./images/sprite.svg#icon-close-mobmenu"></use>
+            </svg>
+          </li>
+          <li>
+            <a href="./index.html" class="nav-link">Головна</a>
+          </li>
+          <li>
+            <a href="./courses.html" class="nav-link current_page">Курси</a>
+          </li>
+          <li><a href="./index.html" class="nav-link">Про нас</a></li>
+          <li><a href="./index.html" class="nav-link">Зв'язатись з нами</a></li>
+        </ul>
+      </div>
+    </header>
+
+    <div class="container courses_wrapper">
+      <div class="side_bar">
+        <h2 class="side_bar_title">Фільтр підбору курсу</h2>
+        <ul>
+          <li class="side_bar_filter-block">
+            <span class="side_bar_option">за категорією:</span>
+            <ul class="side_bar_items-wraper">
+              <li>
+                <button class="category_language category">
+                  вивчення мови
+                </button>
+              </li>
+              <li><button class="category_design category">дизайн</button></li>
+              <li>
+                <button class="category_programming category">
+                  програмування
+                </button>
+              </li>
+            </ul>
+          </li>
+          <li class="side_bar_filter-block">
+            <span class="side_bar_option">за рівнем підготовки:</span>
+
+            <ul class="side_bar_items-wraper">
+              <li>
+                <button class="level_begginer-btn level">початковий</button>
+              </li>
+              <li><button class="level_middle-btn level">середній</button></li>
+              <li><button class="level_high-btn level">високий</button></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+
+      <div class="content_part">
+        <form class="courses_form">
+          <input placeholder="знайти курс" type="text" class="courses_input" />
+          <ul class="courses-list"></ul>
+        </form>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <div class="container footer_wrapper">
+        <div class="footer_networks-links_wrapper">
+          <h3 class="footer_networks-link_title">Ми в соціальних мережах</h3>
+          <ul class="footer_networks-list">
+            <li class="footer_networks-item">
+              <a
+                href=""
+                class="footer_networks-item_link"
+                aria-label="іконка Instagram"
+              >
+                <svg class="footer_networks__icon" width="20" height="20">
+                  <use href="./images/sprite.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+
+            <li class="footer_networks-item">
+              <a
+                href=""
+                class="footer_networks-item_link"
+                aria-label="іконка Twitter"
+              >
+                <svg class="footer_networks__icon" width="20px" height="20px">
+                  <use href="./images/sprite.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+
+            <li class="footer_networks-item">
+              <a
+                href=""
+                class="footer_networks-item_link"
+                aria-label="іконка Facebook"
+              >
+                <svg class="footer_networks__icon" width="20px" height="20px">
+                  <use href="./images/sprite.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+
+            <li class="footer_networks-item">
+              <a
+                href=""
+                class="footer_networks-item_link"
+                aria-label="іконка Linkedin"
+              >
+                <svg class="footer_networks__icon" width="20px" height="20px">
+                  <use href="./images/sprite.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <form class="footer_sign-form" name="sign-form" method="post">
+          <p class="sign-form_call">Підписатись на розсилку</p>
+
+          <div class="footer_sign-form_group">
+            <label class="footer_sign-form_label">
+              <input
+                class="footer_sign-form_input"
+                type="email"
+                name="user-email"
+                placeholder="E-mail"
+              />
+            </label>
+
+            <button class="footer_btn-send" type="submit">
+              <span class="subscribe-title">Підписатись</span>
+              <svg class="icon-subscribe" width="20" height="20">
+                <use href="./images/sprite.svg#icon-email-black"></use>
+              </svg>
+            </button>
+          </div>
+        </form>
+
+        <div class="footer_author_protect_wrapper">
+          <p class="footer_author_protect_text">
+            <svg class="footer_author-protect__icon" width="15px" height="15px">
+              <use href="./images/sprite.svg#icon-author_protect"></use>
+            </svg>
+            2023 використовується згідно ліцензії правоутримувача LTD EdWorld
+          </p>
+        </div>
+      </div>
+
+      <div class="footer_author_protect_wrapper_tablet">
+        <p class="footer_author_protect_text">
+          <svg class="footer_author-protect__icon" width="15px" height="15px">
+            <use href="./images/sprite.svg#icon-author_protect"></use>
+          </svg>
+          2023 використовується згідно ліцензії правоутримувача LTD EdWorld
+        </p>
+      </div>
+    </footer>
+    <script type="module" src="./js/code.js"></script>
+    <script type="module" src="./js/filtredByCategory.js"></script>
+    <script type="module" src="./js/filtredByLevel.js"></script>
+    <script type="module" src="./js/mob-menu_slider.js"></script>
+  </body>
+</html>
