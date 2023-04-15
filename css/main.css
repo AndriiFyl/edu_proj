@@ -199,8 +199,8 @@ input {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  background-image: -webkit-gradient(linear, left top, right top, from(rgba(21, 21, 23, 0.6)), to(rgba(31, 31, 36, 0.6))), url(../../../images/hero_poster.jpg);
-  background-image: linear-gradient(to right, rgba(21, 21, 23, 0.6), rgba(31, 31, 36, 0.6)), url(../../../images/hero_poster.jpg);
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(21, 21, 23, 0.6)), to(rgba(31, 31, 36, 0.6))), url(../images/hero_poster.jpg);
+  background-image: linear-gradient(to right, rgba(21, 21, 23, 0.6), rgba(31, 31, 36, 0.6)), url(../images/hero_poster.jpg);
 }
 
 .hero_main-header, .hero_losung {
